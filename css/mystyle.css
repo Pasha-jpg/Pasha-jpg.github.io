@@ -1,0 +1,206 @@
+body
+{
+ max-width: 1020px;
+ min-width: 250px;
+ height: auto;
+ margin: auto;
+ font-family: 'Times New Roman', Times, serif;
+ box-sizing: border-box;
+ background-image: url(../images/g.jpg);
+
+
+}
+
+header
+{
+    width: 100%;
+    height: 350px;
+    border: 2px solid whitesmoke;
+    box-sizing: border-box;  
+    background-image: url(../images/travelheader1.jpg);
+    background-size: cover;
+
+
+}
+.myborder 
+{
+border: 2px solid gold;
+box-sizing: border-box;
+margin-top : 1%;
+}
+#myborder1 
+{
+background-color: lightsteelblue;
+border: 2px solid gold;
+box-sizing: border-box;
+margin-top : 1%;
+padding: 0.5%;
+}
+
+#mulk
+{width: 10%;
+ left: 2%
+}
+
+
+#test
+{
+    width :100%;
+    height : 60px;
+    border: 1px solid gold;
+    box-sizing : border-box;
+    background-color : lightgrey;
+    float : right;
+    display : inline;
+    clear: both;
+}
+
+
+
+#test a 
+{
+font-size: larger;
+color: black;
+text-transform: uppercase;
+text-shadow : 1px 1px 0 grey;
+
+}
+
+
+
+h1.replace 
+{
+    width : 100%;
+    height : 80%;
+    float : left;
+    clear: both;
+    margin-top : 0%;
+    margin-left : 1.1%;
+    
+}
+h1:hover{
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition:ease 5s }
+
+
+
+.main 
+{
+width: 100%;
+height: auto;
+border: 2px solid whitesmoke;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+text-align: right;
+padding: 5%;
+
+}
+#I
+{
+    float: left;
+    padding: 5%;
+}
+#I:hover 
+{transform: scale(1.25,1.25);}
+
+
+
+
+
+
+
+
+
+p
+{
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+padding: 1%;
+}
+
+footer
+{
+ background-image: url(../images/banner.jpg);
+ background-size: cover;
+ width: 100%;
+ height: 400px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: black;
+ font-size: larger;
+ border: 1px solid whitesmoke;
+ box-sizing: border-box;
+ padding: 10%;
+ margin-top: 1%;
+ 
+
+}
+footer:hover{
+    opacity: 99%;
+    color: blue;
+}
+
+
+
+
+#formcontainer
+{   
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	margin-top: 10px;
+	border: 2px groove gold;
+	background-color: lightpink;
+}
+
+
+
+
+
+/*Respponsive*/
+@media screen and (max-width:640px) {
+	h1.replace
+     {
+         width: auto;
+         height: 50%;
+     }
+
+     header
+     {
+         width: 100%;
+         height: 250px;
+         border: 2px solid whitesmoke;
+         box-sizing: border-box;  
+         background-image: url(../images/travelheader.jpg);
+         background-size: cover;
+     
+     }
+
+     #I
+    { 
+    width: 80%;  
+    float: left;
+    padding: 5%;
+    }
+
+    
+
+footer
+{
+ background-image: url(../images/banner.jpg);
+ background-size: cover;
+ width: 100%;
+ height: 200px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: black;
+ font-size: larger;
+ border: 1px solid whitesmoke;
+ box-sizing: border-box;
+ padding: 10%;
+ margin-top: 1%;
+ 
+
+}
+
+
+}
